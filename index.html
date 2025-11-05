@@ -7,7 +7,29 @@
     <link rel="icon" href="/favicon.png" />
   </head>
   <body>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+  <h1>📖 Đọc LN Free</h1>
+  <div>
+    <span id="userName">Chưa đăng nhập</span>
+    <button id="showLogin">Đăng nhập</button>
+  </div>
+  </div> 
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+  <!-- Modal đăng nhập -->
+<div id="authModal" class="modal">
+  <div class="modal-content">
+    <h3>Đăng nhập</h3>
+    <input type="email" id="email" placeholder="Email..." />
+    <input type="password" id="password" placeholder="Mật khẩu..." />
+    <button id="loginBtn">Đăng nhập</button>
+    <button id="signupBtn">Đăng ký</button>
+    <hr>
+    <button id="googleLoginBtn">Đăng nhập bằng Google</button>
+  </div>
+</div>
+</body>
+  <script type="module" src="firebase.js"></script>
+<script type="module" src="main.js"></script>
 </html>
