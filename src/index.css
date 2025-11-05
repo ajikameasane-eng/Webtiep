@@ -1,1 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* basic dark anime theme */
+body {
+  @apply bg-darkbg text-white font-uvn;
+}
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 12px;
+}
+.small { color: #9aa3b2; font-size: 0.9rem; }
+.btn {
+  @apply px-3 py-1 rounded-md border border-white/10;
+}
+.btn-primary {
+  background: linear-gradient(90deg,#ffb86b,#ff7eb6); color:#111; border:0;
+}
