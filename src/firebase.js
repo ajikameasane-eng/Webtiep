@@ -5,7 +5,7 @@ import { getDatabase } from 'firebase/database';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDU8SnS3KlYaC_Wft4mUPxfaoJknMy4Rtc",
+  apiKey: "AIzaSyDU8SnS3KlYaC_Wft4mUPxfaoJknMy4Rtc ",
   authDomain: "weblightnovel-60a91.firebaseapp.com",
   databaseURL: "https://weblightnovel-60a91-default-rtdb.firebaseio.com",
   projectId: "weblightnovel-60a91",
